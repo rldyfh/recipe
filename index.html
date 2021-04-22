@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <title>Recipe</title>
+</head>
+<body>
+    <div class="mobile-container">
+        <header>
+            <button><i class="fas fa-bars"></i></button>
+            <input type="text" id="search-term"placeholder="Search by food">
+            <button id="search"><i class="fas fa-search"></i></button>
+        </header>
+        <div class="fav-container">
+            <h3>Favorite Meals</h3>
+            <ul class="fav-meals"> 
+            </ul>
+        </div>
+        
+        <div class="meals" id="meals"></div>
+        
+    </div>
+        <div class="popup-container hidden" id="meal-popup">
+            <div class="popup">
+                <button id="close-popup"><i class="fas fa-times"></i></button>
+                <div class="meal-info">
+                    <!-- <h1>Meal title</h1>
+                    <img src="https://www.themealdb.com/images/media/meals/vptwyt1511450962.jpg" alt="">
+                    <div>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                            Ea, illum aspernatur. Unde incidunt eaque consequuntur itaque? 
+                            Eaque illo maxime voluptatum ducimus odit veniam non, 
+                            et nesciunt rem. Eius, neque beatae!
+                        </p>
+                        <ul>
+                            <li>measure1</li>
+                            <li>measure2</li>
+                            <li>measure3</li>
+                        </ul>
+                    </div> -->
+                </div>
+           </div>
+        </div>
+    <script src="./script.js"></script>
+</body>
+</html>
